@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link rel="icon" type="image/x-icon" href="./images/VD.png" />
+    <title>My Personal Website</title>
+  </head>
+  <body>
+    <script defer src="./app.js"></script>
+
+    <div class="container">
+      <div class="header-area">
+        <div class="header-container">
+          <div class="site-logo">
+            <a href="#home">Vishnu<span>Desu</span></a>
+          </div>
+          <div class="mobile-nav">
+            <i class="fas fa-bars"></i>
+          </div>
+          <div class="site-nav-menu">
+            <ul class="primary-menu">
+              <li><a href="#home" class="active nav-Link">Home</a></li>
+              <li><a class="nav-Link" href="#about">About</a></li>
+              <li><a class="nav-Link" href="#skills">Skills</a></li>
+              <li><a class="nav-Link" href="#projects">Projects</a></li>
+              <li><a class="nav-Link" href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="home" class="main">
+        <div class="container-class info">
+          <div class="devInfo hidden">
+            <div class="hello">Hi, I'm</div>
+            <div class="name">Vishnu Vardhan</div>
+            <div class="domain">Front-End Web Developer</div>
+            <div class="buttons">
+              <a href="./resume/my_resume.pdf" download
+                ><button>Download Résumé</button></a
+              >
+            </div>
+          </div>
+          <div class="devPic hidden">
+            <img src="./images/100.jpg" alt="my_pic" />
+          </div>
+        </div>
+      </div>
+
+      <!-- about me page -->
+      <div id="about" class="aboutMain hidden">
+        <h1>About Me</h1>
+        <div class="container-class about">
+          <div class="aboutInfo">
+            <img src="./images/mygif.gif" alt="this is my gif" />
+            <p>
+              Iam 22 year old, Engineering Graduate, 2022 Passed out. I
+              completed my graduation in B.Tech (Petroleum Engineering) from
+              Parul Institute of Technology (Parul University). I love to learn
+              new things and like challenges because, they give me an
+              oppurtunity to improve myself.
+            </p>
+          </div>
+          <div class="toSkillsPage">
+            <a href="#skills"
+              ><p>Checkout my skills</p>
+              <i class="uil uil-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- skills page -->
+      <div id="skills" class="skillsMain">
+        <h1 class="skills-heading hidden">My Skills</h1>
+        <div class="skills container-class hidden">
+          <div class="skills-bar">
+            <div class="bar">
+              <div class="skills-info">
+                <span>HTML</span>
+              </div>
+              <div class="progress-line"><span class="html"></span></div>
+              <div class="bar">
+                <div class="skills-info">
+                  <span>CSS</span>
+                </div>
+                <div class="progress-line"><span class="css"></span></div>
+                <div class="bar">
+                  <div class="skills-info">
+                    <span>Javascript</span>
+                  </div>
+                  <div class="progress-line">
+                    <span class="javascript"></span>
+                  </div>
+                  <div class="bar">
+                    <div class="skills-info">
+                      <span>React JS</span>
+                    </div>
+                    <div class="progress-line">
+                      <span class="reactjs"></span>
+                    </div>
+                    <div class="bar">
+                      <div class="skills-info">
+                        <span>Python</span>
+                      </div>
+                      <div class="progress-line">
+                        <span class="python"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="resumeLink hidden" href="./resume/my_resume.pdf" download>
+          <div>
+            <span>Checkout my resume for more details</span>
+            <i class="uil uil-arrow-right"></i>
+          </div>
+        </a>
+      </div>
+
+      <!-- projects page -->
+      <div id="projects" class="projectsMain hidden">
+        <h1>Projects</h1>
+        <div class="project container-class">
+          <div class="projectSnip">
+            <div class="slider">
+              <div class="images">
+                <input type="radio" name="slide" id="img1" checked />
+                <input type="radio" name="slide" id="img2" />
+                <input type="radio" name="slide" id="img3" />
+
+                <img src="./images/weather_app1.png" class="m1" alt="img1" />
+                <img src="./images/weather_app2.png" class="m2" alt="img2" />
+                <img src="./images/weather_app3.png" class="m3" alt="img3" />
+              </div>
+              <div class="dots">
+                <label for="img1"></label>
+                <label for="img2"></label>
+                <label for="img3"></label>
+              </div>
+            </div>
+          </div>
+          <div class="projectsInfo">
+            <h3>Weather-App</h3>
+            <span class="techStack"
+              >Technologies Used are HTML, CSS, AJAX, Reactjs</span
+            >
+            <a
+              href="https://scintillating-queijadas-8fbd34.netlify.app"
+              target="_blank"
+              ><button class="buttons">Try it Live</button></a
+            >
+          </div>
+        </div>
+
+        <div class="project container-class">
+          <div class="projectSnip">
+            <div class="slider">
+              <div class="images">
+                <input type="radio" name="slide" id="img4" checked />
+                <input type="radio" name="slide" id="img5" />
+                <input type="radio" name="slide" id="img6" />
+
+                <img
+                  src="./images/landing_page1.png"
+                  class="m1"
+                  alt="landing_page_img1"
+                />
+                <img
+                  src="./images/landing_page2.png"
+                  class="m2"
+                  alt="landing_page_img2"
+                />
+                <img
+                  src="./images/landing_page3.png"
+                  class="m3"
+                  alt="landing_page_img3"
+                />
+              </div>
+              <div class="dots">
+                <label for="img4"></label>
+                <label for="img5"></label>
+                <label for="img6"></label>
+              </div>
+            </div>
+          </div>
+          <div class="projectsInfo">
+            <h3>Responsive Landing Page</h3>
+            <span class="techStack">Technologies Used are HTML, CSS</span>
+            <a href="https://elaborate-kheer-e6c8fa.netlify.app" target="_blank"
+              ><button class="buttons">Try it Live</button></a
+            >
+          </div>
+        </div>
+
+        <div class="more">
+          <span
+            >For more!! --
+            <a href="https://github.com/Vishnu844?tab=repositories">Visit</a
+            ><i class="uil uil-arrow-right"></i
+          ></span>
+        </div>
+      </div>
+
+      <!-- contact page -->
+      <div id="contact" class="contactPage">
+        <div class="contact-Head hidden">
+          <h1 class="title">Contact Me</h1>
+          <span class="subtitle"> Get in Touch </span>
+        </div>
+        <div class="contact container-class">
+          <a
+            class="contactLinks hidden"
+            href="https://www.naukri.com/mnjuser/homepage"
+            target="_blank"
+          >
+            <div class="contact-container">
+              <div class="contact-info">
+                <i class="uil uil-at"></i>
+
+                <h3 class="contact-title">Naukri</h3>
+                <span class="contact-subtitle">Vishnu vardhan desu</span>
+              </div>
+            </div>
+          </a>
+
+          <a
+            class="contactLinks hidden"
+            href="https://mail.google.com/"
+            target="_blank"
+          >
+            <div class="contact-container">
+              <div class="contact-info">
+                <i class="uil uil-envelope-alt"></i>
+
+                <h3 class="contact-title">Email</h3>
+                <span class="contact-subtitle">vishnu4017@gmail.com</span>
+              </div>
+            </div>
+          </a>
+
+          <a
+            class="contactLinks hidden"
+            href="https://www.linkedin.com/in/vishnu-vardhan-desu-40b44b1b4/"
+            target="_blank"
+            ><div class="contact-container">
+              <div class="contact-info">
+                <i class="uil uil-linkedin"></i>
+
+                <h3 class="contact-title">LinkedIn</h3>
+                <span class="contact-subtitle">Vishnu Vardhan Desu</span>
+              </div>
+            </div></a
+          >
+
+          <a
+            class="contactLinks hidden"
+            href="https://github.com/Vishnu844"
+            target="_blank"
+            ><div class="contact-container">
+              <div class="contact-info">
+                <i class="uil uil-github"></i>
+
+                <h3 class="contact-title">Github</h3>
+                <span class="contact-subtitle">Vishnu844</span>
+              </div>
+            </div></a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
